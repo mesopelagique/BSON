@@ -1,0 +1,1099 @@
+{
+	"_method_": {},
+	"cs.bson": {
+		"Double": {
+			"new()": {
+				"Syntax": "**.new**( *value* : Real )",
+				"Params": [
+					[
+						"value",
+						"Real",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"ObjectId": {
+			"new()": {
+				"Syntax": "**.new**( *id* : Text )",
+				"Params": [
+					[
+						"id",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Regex": {
+			"new()": {
+				"Syntax": "**.new**( *pattern* : Text; *flags* : Text )",
+				"Params": [
+					[
+						"pattern",
+						"Text",
+						"->"
+					],
+					[
+						"flags",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"MinKey": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"Int64": {
+			"new()": {
+				"Syntax": "**.new**( *value* : Variant )",
+				"Params": [
+					[
+						"value",
+						"Variant",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Decimal128": {
+			"new()": {
+				"Syntax": "**.new**( *value* : Variant )",
+				"Params": [
+					[
+						"value",
+						"Variant",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"_Abtract": {
+			"new()": {
+				"Syntax": "**.new**( *bsontype* : Text )",
+				"Params": [
+					[
+						"bsontype",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"BSON": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"Binary": {
+			"new()": {
+				"Syntax": "**.new**( *data* : Blob; *subtype* : Integer )",
+				"Params": [
+					[
+						"data",
+						"Blob",
+						"->"
+					],
+					[
+						"subtype",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Code": {
+			"new()": {
+				"Syntax": "**.new**( *code* : Text; *scope* : Object )",
+				"Params": [
+					[
+						"code",
+						"Text",
+						"->"
+					],
+					[
+						"scope",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"Timestamp": {
+			"new()": {
+				"Syntax": "**.new**( *timestamp* : Real; *increment* : Real )",
+				"Params": [
+					[
+						"timestamp",
+						"Real",
+						"->"
+					],
+					[
+						"increment",
+						"Real",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"MaxKey": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"BinarySubtype": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"Double": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isFinite()": {
+			"Syntax": "**.isFinite**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toNumber()": {
+			"Syntax": "**.toNumber**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isPositiveInfinity()": {
+			"Syntax": "**.isPositiveInfinity**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isNegativeInfinity()": {
+			"Syntax": "**.isNegativeInfinity**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isInfinite()": {
+			"Syntax": "**.isInfinite**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isNaN()": {
+			"Syntax": "**.isNaN**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"value": {
+			"Syntax": "value : Real"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"ObjectId": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getTimestamp()": {
+			"Syntax": "**.getTimestamp**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getDate()": {
+			"Syntax": "**.getDate**() : Date",
+			"Params": [
+				[
+					"",
+					"Date",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"id": {
+			"Syntax": "id : Text"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"Regex": {
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"flags": {
+			"Syntax": "flags : Text"
+		},
+		"pattern": {
+			"Syntax": "pattern : Text"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"MinKey": {
+		"compare()": {
+			"Syntax": "**.compare**( *other* : Variant ) : Integer",
+			"Params": [
+				[
+					"other",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"Int64": {
+		"toNumber()": {
+			"Syntax": "**.toNumber**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"subtract()": {
+			"Syntax": "**.subtract**( *other* : cs.bson.Int64 ) : cs.bson.Int64",
+			"Params": [
+				[
+					"other",
+					"cs.bson.Int64",
+					"->"
+				],
+				[
+					"",
+					"cs.bson.Int64",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"add()": {
+			"Syntax": "**.add**( *other* : cs.bson.Int64 ) : cs.bson.Int64",
+			"Params": [
+				[
+					"other",
+					"cs.bson.Int64",
+					"->"
+				],
+				[
+					"",
+					"cs.bson.Int64",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"compare()": {
+			"Syntax": "**.compare**( *other* : cs.bson.Int64 ) : Integer",
+			"Params": [
+				[
+					"other",
+					"cs.bson.Int64",
+					"->"
+				],
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromBits()": {
+			"Syntax": "**.fromBits**( *low* : Integer; *high* : Integer ) : cs.bson.Int64",
+			"Params": [
+				[
+					"low",
+					"Integer",
+					"->"
+				],
+				[
+					"high",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"cs.bson.Int64",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isZero()": {
+			"Syntax": "**.isZero**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getHigh()": {
+			"Syntax": "**.getHigh**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLow()": {
+			"Syntax": "**.getLow**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isNegative()": {
+			"Syntax": "**.isNegative**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"negate()": {
+			"Syntax": "**.negate**() : cs.bson.Int64",
+			"Params": [
+				[
+					"",
+					"cs.bson.Int64",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"high": {
+			"Syntax": "high : Integer"
+		},
+		"low": {
+			"Syntax": "low : Integer"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"Decimal128": {
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isInfinite()": {
+			"Syntax": "**.isInfinite**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isNaN()": {
+			"Syntax": "**.isNaN**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isNegative()": {
+			"Syntax": "**.isNegative**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getBytes()": {
+			"Syntax": "**.getBytes**() : Blob",
+			"Params": [
+				[
+					"",
+					"Blob",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"bytes": {
+			"Syntax": "bytes : Blob"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"_Abtract": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isValid()": {
+			"Syntax": "**.isValid**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get bsonType()": {
+			"Syntax": "**.get bsonType**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"BSON": {
+		"decode()": {
+			"Syntax": "**.decode**( *bytes* : Blob ) : Object",
+			"Params": [
+				[
+					"bytes",
+					"Blob",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"encode()": {
+			"Syntax": "**.encode**( *object* : Object ) : Blob",
+			"Params": [
+				[
+					"object",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Blob",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"calculateSize()": {
+			"Syntax": "**.calculateSize**( *object* : Object ) : Integer",
+			"Params": [
+				[
+					"object",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"Binary": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"length()": {
+			"Syntax": "**.length**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createUUID()": {
+			"Syntax": "**.createUUID**() : cs.bson.Binary",
+			"Params": [
+				[
+					"",
+					"cs.bson.Binary",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toUUID()": {
+			"Syntax": "**.toUUID**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromBase64()": {
+			"Syntax": "**.fromBase64**( *base64* : Text; *subtype* : Integer ) : cs.bson.Binary",
+			"Params": [
+				[
+					"base64",
+					"Text",
+					"->"
+				],
+				[
+					"subtype",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"cs.bson.Binary",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toBase64()": {
+			"Syntax": "**.toBase64**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"subtype": {
+			"Syntax": "subtype : Integer"
+		},
+		"data": {
+			"Syntax": "data : Blob"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"Code": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"hasScope()": {
+			"Syntax": "**.hasScope**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"scope": {
+			"Syntax": "scope : Object"
+		},
+		"code": {
+			"Syntax": "code : Text"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"Timestamp": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"equals()": {
+			"Syntax": "**.equals**( *other* : Object ) : Boolean",
+			"Params": [
+				[
+					"other",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"compare()": {
+			"Syntax": "**.compare**( *other* : cs.bson.Timestamp ) : Integer",
+			"Params": [
+				[
+					"other",
+					"cs.bson.Timestamp",
+					"->"
+				],
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getTime()": {
+			"Syntax": "**.getTime**() : Time",
+			"Params": [
+				[
+					"",
+					"Time",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getDate()": {
+			"Syntax": "**.getDate**() : Date",
+			"Params": [
+				[
+					"",
+					"Date",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"now()": {
+			"Syntax": "**.now**() : cs.bson.Timestamp",
+			"Params": [
+				[
+					"",
+					"cs.bson.Timestamp",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"increment": {
+			"Syntax": "increment : Real"
+		},
+		"timestamp": {
+			"Syntax": "timestamp : Real"
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"MaxKey": {
+		"compare()": {
+			"Syntax": "**.compare**( *other* : Variant ) : Integer",
+			"Params": [
+				[
+					"other",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toString()": {
+			"Syntax": "**.toString**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "_Abtract"
+	},
+	"BinarySubtype": {
+		"vector": {
+			"Syntax": "vector : Integer"
+		},
+		"sensitive": {
+			"Syntax": "sensitive : Integer"
+		},
+		"column": {
+			"Syntax": "column : Integer"
+		},
+		"encrypted": {
+			"Syntax": "encrypted : Integer"
+		},
+		"generic": {
+			"Syntax": "generic : Integer"
+		},
+		"uuid": {
+			"Syntax": "uuid : Integer"
+		},
+		"userDefined": {
+			"Syntax": "userDefined : Integer"
+		},
+		"md5": {
+			"Syntax": "md5 : Integer"
+		},
+		"oldUUID": {
+			"Syntax": "oldUUID : Integer"
+		},
+		"function": {
+			"Syntax": "function : Integer"
+		},
+		"oldBinary": {
+			"Syntax": "oldBinary : Integer"
+		}
+	}
+}
